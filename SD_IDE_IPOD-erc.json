@@ -1,0 +1,1717 @@
+{
+    "$schema": "https://schemas.kicad.org/erc.v1.json",
+    "coordinate_units": "mm",
+    "date": "2026-10-10T15:18:18",
+    "ignored_checks": [
+        {
+            "description": "Global label only appears once in the schematic",
+            "key": "single_global_label"
+        },
+        {
+            "description": "Four connection points are joined together",
+            "key": "four_way_junction"
+        },
+        {
+            "description": "SPICE model issue",
+            "key": "simulation_model_issue"
+        },
+        {
+            "description": "Assigned footprint doesn't match footprint filters",
+            "key": "footprint_filter"
+        }
+    ],
+    "included_severities": [
+        "error",
+        "warning",
+        "exclusion"
+    ],
+    "kicad_version": "10.0.6",
+    "sheets": [
+        {
+            "path": "/",
+            "uuid_path": "/afe1c6f6-20e8-40a4-9a85-f45952544205",
+            "violations": [
+                {
+                    "description": "Unconnected wire endpoint",
+                    "items": [
+                        {
+                            "description": "Vertical Wire, length 0.0254 mm",
+                            "pos": {
+                                "x": 0.8509,
+                                "y": 0.8382
+                            },
+                            "uuid": "bb792f7a-582d-4b79-aeea-04b97df17e0e"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "unconnected_wire_endpoint"
+                },
+                {
+                    "description": "Symbol pin or wire end off connection grid",
+                    "items": [
+                        {
+                            "description": "Wire, length 0.1033 mm",
+                            "pos": {
+                                "x": 1.0033,
+                                "y": 0.8001
+                            },
+                            "uuid": "2fafe1ad-562e-4a12-a5e8-d1fbdb5e461a"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "endpoint_off_grid"
+                },
+                {
+                    "description": "Symbol pin or wire end off connection grid",
+                    "items": [
+                        {
+                            "description": "Wire, length 0.0271 mm",
+                            "pos": {
+                                "x": 0.9271,
+                                "y": 0.8001
+                            },
+                            "uuid": "88b0e72d-2400-4fbb-978a-e462742d70ad"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "endpoint_off_grid"
+                },
+                {
+                    "description": "Symbol pin or wire end off connection grid",
+                    "items": [
+                        {
+                            "description": "Wire, length 0.1033 mm",
+                            "pos": {
+                                "x": 1.0033,
+                                "y": 0.8001
+                            },
+                            "uuid": "f38e924e-a5e5-4c41-a218-6a73ded0f687"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "endpoint_off_grid"
+                },
+                {
+                    "description": "Unconnected wire endpoint",
+                    "items": [
+                        {
+                            "description": "Wire, length 0.0271 mm",
+                            "pos": {
+                                "x": 0.9271,
+                                "y": 0.8001
+                            },
+                            "uuid": "88b0e72d-2400-4fbb-978a-e462742d70ad"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "unconnected_wire_endpoint"
+                },
+                {
+                    "description": "Symbol pin or wire end off connection grid",
+                    "items": [
+                        {
+                            "description": "Wire, length 0.0492 mm",
+                            "pos": {
+                                "x": 1.0033,
+                                "y": 0.8509
+                            },
+                            "uuid": "182e09c6-ea73-442f-877a-7ab3d1ce6407"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "endpoint_off_grid"
+                },
+                {
+                    "description": "Symbol pin or wire end off connection grid",
+                    "items": [
+                        {
+                            "description": "Wire, length 0.0492 mm",
+                            "pos": {
+                                "x": 1.0033,
+                                "y": 0.8509
+                            },
+                            "uuid": "55751465-0b51-4ca0-a5d4-c2f7cb3b04fb"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "endpoint_off_grid"
+                },
+                {
+                    "description": "Symbol pin or wire end off connection grid",
+                    "items": [
+                        {
+                            "description": "Wire, length 0.1761 mm",
+                            "pos": {
+                                "x": 1.0033,
+                                "y": 0.7239
+                            },
+                            "uuid": "6415bcd6-ad59-48b2-ab34-e65f7447a45c"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "endpoint_off_grid"
+                },
+                {
+                    "description": "Unconnected wire endpoint",
+                    "items": [
+                        {
+                            "description": "Wire, length 0.1761 mm",
+                            "pos": {
+                                "x": 1.0033,
+                                "y": 0.7239
+                            },
+                            "uuid": "6415bcd6-ad59-48b2-ab34-e65f7447a45c"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "unconnected_wire_endpoint"
+                },
+                {
+                    "description": "Symbol 'AMS1117CD-1.8' doesn't match copy in library 'Regulator_Linear'",
+                    "items": [
+                        {
+                            "description": "Symbol U7 [AMS1117CD-1.8]",
+                            "pos": {
+                                "x": 1.0033,
+                                "y": 0.8001
+                            },
+                            "uuid": "a3c4f231-8393-4bbc-a751-08aec6164b5a"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "lib_symbol_mismatch"
+                },
+                {
+                    "description": "Unconnected wire endpoint",
+                    "items": [
+                        {
+                            "description": "Wire, length 0.1205 mm",
+                            "pos": {
+                                "x": 1.0795,
+                                "y": 0.8001
+                            },
+                            "uuid": "7ad54d3b-e008-4e72-8b52-b17a825f1544"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "unconnected_wire_endpoint"
+                },
+                {
+                    "description": "Unconnected wire endpoint",
+                    "items": [
+                        {
+                            "description": "Vertical Wire, length 0.0254 mm",
+                            "pos": {
+                                "x": 1.1557,
+                                "y": 0.762
+                            },
+                            "uuid": "29e65d77-6caa-49b8-abc4-d2763275cab8"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "unconnected_wire_endpoint"
+                },
+                {
+                    "description": "Label connects more than one wire at 1155700, 812800",
+                    "items": [
+                        {
+                            "description": "Label 'GND'",
+                            "pos": {
+                                "x": 1.1557,
+                                "y": 0.8128
+                            },
+                            "uuid": "9c8cd101-d2d9-4b69-aab7-095522821097"
+                        },
+                        {
+                            "description": "Wire, length 0.1983 mm",
+                            "pos": {
+                                "x": 1.0033,
+                                "y": 0.8255
+                            },
+                            "uuid": "50183241-1281-468c-b61a-eb46c40639c3"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "label_multiple_wires"
+                },
+                {
+                    "description": "Unconnected wire endpoint",
+                    "items": [
+                        {
+                            "description": "Vertical Wire, length 0.0254 mm",
+                            "pos": {
+                                "x": 1.1557,
+                                "y": 0.8382
+                            },
+                            "uuid": "4ecee7b7-7f44-4d3b-b15e-32ae393a2f18"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "unconnected_wire_endpoint"
+                },
+                {
+                    "description": "Label connects more than one wire at 1193800, 812800",
+                    "items": [
+                        {
+                            "description": "Label 'HD5'",
+                            "pos": {
+                                "x": 1.1938,
+                                "y": 0.8128
+                            },
+                            "uuid": "9ac1ef8b-5646-49db-a37f-916f7ae0cd8a"
+                        },
+                        {
+                            "description": "Wire, length 0.1983 mm",
+                            "pos": {
+                                "x": 1.0033,
+                                "y": 0.8255
+                            },
+                            "uuid": "50183241-1281-468c-b61a-eb46c40639c3"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "label_multiple_wires"
+                },
+                {
+                    "description": "Label connected to only one pin",
+                    "items": [
+                        {
+                            "description": "Label 'HD3'",
+                            "pos": {
+                                "x": 1.1938,
+                                "y": 0.9652
+                            },
+                            "uuid": "4a750d68-1b1d-495d-a694-7bdd9b4cfffa"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "isolated_pin_label"
+                },
+                {
+                    "description": "Symbol pin or wire end off connection grid",
+                    "items": [
+                        {
+                            "description": "Wire, length 0.1983 mm",
+                            "pos": {
+                                "x": 1.0033,
+                                "y": 0.8255
+                            },
+                            "uuid": "50183241-1281-468c-b61a-eb46c40639c3"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "endpoint_off_grid"
+                },
+                {
+                    "description": "Symbol pin or wire end off connection grid",
+                    "items": [
+                        {
+                            "description": "Wire, length 0.1205 mm",
+                            "pos": {
+                                "x": 1.0795,
+                                "y": 0.8001
+                            },
+                            "uuid": "7ad54d3b-e008-4e72-8b52-b17a825f1544"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "endpoint_off_grid"
+                },
+                {
+                    "description": "Symbol pin or wire end off connection grid",
+                    "items": [
+                        {
+                            "description": "Wire, length 0.1983 mm",
+                            "pos": {
+                                "x": 1.0033,
+                                "y": 0.8255
+                            },
+                            "uuid": "c2fbafc9-9bda-4422-bc01-b5b90bd7faf4"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "endpoint_off_grid"
+                },
+                {
+                    "description": "Both SD0_CLK and SD0_DAT1 are attached to the same items; SD0_CLK will be used in the netlist",
+                    "items": [
+                        {
+                            "description": "Label 'SD0_CLK'",
+                            "pos": {
+                                "x": 4.3307,
+                                "y": 0.8509
+                            },
+                            "uuid": "33fc020f-6438-4d6d-9b88-929f36b3641c"
+                        },
+                        {
+                            "description": "Label 'SD0_DAT1'",
+                            "pos": {
+                                "x": 1.2065,
+                                "y": 1.1176
+                            },
+                            "uuid": "7136be6d-0fea-4eda-9f4e-7de10f60e0a3"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "multiple_net_names"
+                },
+                {
+                    "description": "Both SD1_DAT1 and SD1_DAT2 are attached to the same items; SD1_DAT1 will be used in the netlist",
+                    "items": [
+                        {
+                            "description": "Label 'SD1_DAT1'",
+                            "pos": {
+                                "x": 1.2065,
+                                "y": 1.397
+                            },
+                            "uuid": "35e0086e-ec9c-4e44-af31-e5925e3fc5a6"
+                        },
+                        {
+                            "description": "Label 'SD1_DAT2'",
+                            "pos": {
+                                "x": 1.2065,
+                                "y": 1.3716
+                            },
+                            "uuid": "07fa29ae-1078-40d9-81c9-a7b7d4645928"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "multiple_net_names"
+                },
+                {
+                    "description": "Label connected to only one pin",
+                    "items": [
+                        {
+                            "description": "Label 'HD3'",
+                            "pos": {
+                                "x": 1.3843,
+                                "y": 0.9652
+                            },
+                            "uuid": "1cbc6e9b-13c6-4814-860c-b43a24a94a38"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "isolated_pin_label"
+                },
+                {
+                    "description": "Pins of type Bidirectional and Power output are connected",
+                    "items": [
+                        {
+                            "description": "Symbol U1 Pin 94 [HA10, Bidirectional, Line]",
+                            "pos": {
+                                "x": 1.5748,
+                                "y": 0.4826
+                            },
+                            "uuid": "d37ca8c3-4e0e-40f5-8403-77acedf4ed13"
+                        },
+                        {
+                            "description": "Symbol #FLG04 Pin 1 [Power output, Line]",
+                            "pos": {
+                                "x": 1.9812,
+                                "y": 0.3429
+                            },
+                            "uuid": "4bfb731b-c161-4ab8-b767-d4b94b0180f5"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "pin_to_pin"
+                },
+                {
+                    "description": "Pins of type Bidirectional and Power output are connected",
+                    "items": [
+                        {
+                            "description": "Symbol U1 Pin 93 [HOE, Bidirectional, Line]",
+                            "pos": {
+                                "x": 1.6002,
+                                "y": 0.4826
+                            },
+                            "uuid": "f6c65427-b02a-4e52-99ad-b5d4407ca0de"
+                        },
+                        {
+                            "description": "Symbol #FLG04 Pin 1 [Power output, Line]",
+                            "pos": {
+                                "x": 1.9812,
+                                "y": 0.3429
+                            },
+                            "uuid": "4bfb731b-c161-4ab8-b767-d4b94b0180f5"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "pin_to_pin"
+                },
+                {
+                    "description": "Pins of type Bidirectional and Power output are connected",
+                    "items": [
+                        {
+                            "description": "Symbol U1 Pin 91 [HA9, Bidirectional, Line]",
+                            "pos": {
+                                "x": 1.651,
+                                "y": 0.4826
+                            },
+                            "uuid": "259b33f3-0f13-4c3a-8153-a4d37b71a684"
+                        },
+                        {
+                            "description": "Symbol #FLG04 Pin 1 [Power output, Line]",
+                            "pos": {
+                                "x": 1.9812,
+                                "y": 0.3429
+                            },
+                            "uuid": "4bfb731b-c161-4ab8-b767-d4b94b0180f5"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "pin_to_pin"
+                },
+                {
+                    "description": "Pins of type Bidirectional and Power output are connected",
+                    "items": [
+                        {
+                            "description": "Symbol U1 Pin 89 [HA8, Bidirectional, Line]",
+                            "pos": {
+                                "x": 1.7018,
+                                "y": 0.4826
+                            },
+                            "uuid": "b0eb53ae-ae49-4605-b9c2-b1157845f0ab"
+                        },
+                        {
+                            "description": "Symbol #FLG04 Pin 1 [Power output, Line]",
+                            "pos": {
+                                "x": 1.9812,
+                                "y": 0.3429
+                            },
+                            "uuid": "4bfb731b-c161-4ab8-b767-d4b94b0180f5"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "pin_to_pin"
+                },
+                {
+                    "description": "Pins of type Bidirectional and Power output are connected",
+                    "items": [
+                        {
+                            "description": "Symbol U1 Pin 81 [WE, Bidirectional, Line]",
+                            "pos": {
+                                "x": 1.905,
+                                "y": 0.4826
+                            },
+                            "uuid": "80c9e1a5-03a4-4afc-82ca-fb17bc1ce01e"
+                        },
+                        {
+                            "description": "Symbol #FLG04 Pin 1 [Power output, Line]",
+                            "pos": {
+                                "x": 1.9812,
+                                "y": 0.3429
+                            },
+                            "uuid": "4bfb731b-c161-4ab8-b767-d4b94b0180f5"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "pin_to_pin"
+                },
+                {
+                    "description": "Pins of type Bidirectional and Power output are connected",
+                    "items": [
+                        {
+                            "description": "Symbol U1 Pin 80 [HA7, Bidirectional, Line]",
+                            "pos": {
+                                "x": 1.9304,
+                                "y": 0.4826
+                            },
+                            "uuid": "3143283e-a06d-441e-82f3-b1002fb888ad"
+                        },
+                        {
+                            "description": "Symbol #FLG04 Pin 1 [Power output, Line]",
+                            "pos": {
+                                "x": 1.9812,
+                                "y": 0.3429
+                            },
+                            "uuid": "4bfb731b-c161-4ab8-b767-d4b94b0180f5"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "pin_to_pin"
+                },
+                {
+                    "description": "Pins of type Bidirectional and Power output are connected",
+                    "items": [
+                        {
+                            "description": "Symbol U1 Pin 78 [HA6, Bidirectional, Line]",
+                            "pos": {
+                                "x": 1.9812,
+                                "y": 0.4826
+                            },
+                            "uuid": "84d2b761-d6e3-4683-a684-69b7e8d6001c"
+                        },
+                        {
+                            "description": "Symbol #FLG04 Pin 1 [Power output, Line]",
+                            "pos": {
+                                "x": 1.9812,
+                                "y": 0.3429
+                            },
+                            "uuid": "4bfb731b-c161-4ab8-b767-d4b94b0180f5"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "pin_to_pin"
+                },
+                {
+                    "description": "Pins of type Bidirectional and Power output are connected",
+                    "items": [
+                        {
+                            "description": "Symbol U1 Pin 74 [nCSEL, Bidirectional, Line]",
+                            "pos": {
+                                "x": 2.0828,
+                                "y": 0.4826
+                            },
+                            "uuid": "4be6d609-9bcc-4485-b66d-fac524d25c29"
+                        },
+                        {
+                            "description": "Symbol #FLG04 Pin 1 [Power output, Line]",
+                            "pos": {
+                                "x": 1.9812,
+                                "y": 0.3429
+                            },
+                            "uuid": "4bfb731b-c161-4ab8-b767-d4b94b0180f5"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "pin_to_pin"
+                },
+                {
+                    "description": "Pins of type Bidirectional and Power output are connected",
+                    "items": [
+                        {
+                            "description": "Symbol U1 Pin 73 [HA5, Bidirectional, Line]",
+                            "pos": {
+                                "x": 2.1082,
+                                "y": 0.4826
+                            },
+                            "uuid": "f56a68a4-69a8-42af-a699-662e56b64c97"
+                        },
+                        {
+                            "description": "Symbol #FLG04 Pin 1 [Power output, Line]",
+                            "pos": {
+                                "x": 1.9812,
+                                "y": 0.3429
+                            },
+                            "uuid": "4bfb731b-c161-4ab8-b767-d4b94b0180f5"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "pin_to_pin"
+                },
+                {
+                    "description": "Pins of type Bidirectional and Power output are connected",
+                    "items": [
+                        {
+                            "description": "Symbol U1 Pin 72 [HA4, Bidirectional, Line]",
+                            "pos": {
+                                "x": 2.1336,
+                                "y": 0.4826
+                            },
+                            "uuid": "32d35f7c-2e47-408f-805b-546e0f16cd3f"
+                        },
+                        {
+                            "description": "Symbol #FLG04 Pin 1 [Power output, Line]",
+                            "pos": {
+                                "x": 1.9812,
+                                "y": 0.3429
+                            },
+                            "uuid": "4bfb731b-c161-4ab8-b767-d4b94b0180f5"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "pin_to_pin"
+                },
+                {
+                    "description": "Label connected to only one pin",
+                    "items": [
+                        {
+                            "description": "Label 'IORDY'",
+                            "pos": {
+                                "x": 2.2098,
+                                "y": 0.3429
+                            },
+                            "uuid": "e2a76da8-a20b-46ef-a696-c35a84add78f"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "isolated_pin_label"
+                },
+                {
+                    "description": "Label connected to only one pin",
+                    "items": [
+                        {
+                            "description": "Label 'IORDY'",
+                            "pos": {
+                                "x": 2.2098,
+                                "y": 0.4572
+                            },
+                            "uuid": "a234095a-b1e8-4d12-a991-1ba251080426"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "isolated_pin_label"
+                },
+                {
+                    "description": "Unconnected \"no connection\" flag",
+                    "items": [
+                        {
+                            "description": "No Connect",
+                            "pos": {
+                                "x": 2.413,
+                                "y": 1.3081
+                            },
+                            "uuid": "e1d415fd-236a-4f62-bfbb-1b9814aba316"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "no_connect_dangling"
+                },
+                {
+                    "description": "Pins of type Bidirectional and Power output are connected",
+                    "items": [
+                        {
+                            "description": "Symbol U1 Pin 51 [nIOIS16, Bidirectional, Line]",
+                            "pos": {
+                                "x": 2.4257,
+                                "y": 0.9652
+                            },
+                            "uuid": "e122632a-ba4b-450c-814e-9819b2becde5"
+                        },
+                        {
+                            "description": "Symbol #FLG04 Pin 1 [Power output, Line]",
+                            "pos": {
+                                "x": 1.9812,
+                                "y": 0.3429
+                            },
+                            "uuid": "4bfb731b-c161-4ab8-b767-d4b94b0180f5"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "pin_to_pin"
+                },
+                {
+                    "description": "Both +1V8 and VCC1.8 are attached to the same items; +1V8 will be used in the netlist",
+                    "items": [
+                        {
+                            "description": "Symbol #PWR201 Pin 1 [Power input, Line]",
+                            "pos": {
+                                "x": 2.5654,
+                                "y": 0.635
+                            },
+                            "uuid": "1726e240-3e8d-4e53-865f-36027ac1e1f2"
+                        },
+                        {
+                            "description": "Label 'VCC1.8'",
+                            "pos": {
+                                "x": 2.5654,
+                                "y": 0.635
+                            },
+                            "uuid": "01c98b28-721b-4126-94b7-2834dd3e4ebe"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "multiple_net_names"
+                },
+                {
+                    "description": "Both HA0 and nDASP are attached to the same items; HA0 will be used in the netlist",
+                    "items": [
+                        {
+                            "description": "Label 'HA0'",
+                            "pos": {
+                                "x": 3.1369,
+                                "y": 0.635
+                            },
+                            "uuid": "d3debdd9-7c81-4fbe-9e66-3b1d8d8508c7"
+                        },
+                        {
+                            "description": "Label 'nDASP'",
+                            "pos": {
+                                "x": 2.6162,
+                                "y": 0.8382
+                            },
+                            "uuid": "0afdd589-3cb0-4158-a6f8-cf2d6ff7710c"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "multiple_net_names"
+                },
+                {
+                    "description": "Both CE1 and CE2 are attached to the same items; CE1 will be used in the netlist",
+                    "items": [
+                        {
+                            "description": "Label 'CE1'",
+                            "pos": {
+                                "x": 3.1369,
+                                "y": 0.5842
+                            },
+                            "uuid": "2fa6b9fc-485c-4c90-9a7a-b5498fff6646"
+                        },
+                        {
+                            "description": "Label 'CE2'",
+                            "pos": {
+                                "x": 3.1369,
+                                "y": 0.5588
+                            },
+                            "uuid": "645c2ed0-5711-441e-be1d-8b1401415cee"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "multiple_net_names"
+                },
+                {
+                    "description": "Label connected to only one pin",
+                    "items": [
+                        {
+                            "description": "Label 'I0RDY'",
+                            "pos": {
+                                "x": 3.1369,
+                                "y": 0.7874
+                            },
+                            "uuid": "151a1ec3-7472-4528-aa65-8b83a21ece58"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "isolated_pin_label"
+                },
+                {
+                    "description": "Label connected to only one pin",
+                    "items": [
+                        {
+                            "description": "Label 'HD19'",
+                            "pos": {
+                                "x": 3.1369,
+                                "y": 1.143
+                            },
+                            "uuid": "5964c2db-ee6c-4ff0-8fc8-1b95a64e637e"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "isolated_pin_label"
+                },
+                {
+                    "description": "Both INTRQ and nRST are attached to the same items; INTRQ will be used in the netlist",
+                    "items": [
+                        {
+                            "description": "Label 'INTRQ'",
+                            "pos": {
+                                "x": 1.9558,
+                                "y": 0.3429
+                            },
+                            "uuid": "32997edd-2fc1-4c7f-bd25-e78767e34b66"
+                        },
+                        {
+                            "description": "Label 'nRST'",
+                            "pos": {
+                                "x": 3.1369,
+                                "y": 1.397
+                            },
+                            "uuid": "df2d2048-2dda-499c-8ff7-2ec49d46d7d7"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "multiple_net_names"
+                },
+                {
+                    "description": "Pins of type Unspecified and Unspecified are connected",
+                    "items": [
+                        {
+                            "description": "Symbol P1 Pin 2 [2, Unspecified, Line]",
+                            "pos": {
+                                "x": 3.3528,
+                                "y": 0.4826
+                            },
+                            "uuid": "78b50de0-1386-4782-80dd-3a5dc8ca178a"
+                        },
+                        {
+                            "description": "Symbol P1 Pin 3 [3, Unspecified, Line]",
+                            "pos": {
+                                "x": 3.3528,
+                                "y": 0.508
+                            },
+                            "uuid": "4f90bda8-effc-491d-a49b-6dfd541f05d4"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "pin_to_pin"
+                },
+                {
+                    "description": "Pins of type Unspecified and Unspecified are connected",
+                    "items": [
+                        {
+                            "description": "Symbol P1 Pin 3 [3, Unspecified, Line]",
+                            "pos": {
+                                "x": 3.3528,
+                                "y": 0.508
+                            },
+                            "uuid": "4f90bda8-effc-491d-a49b-6dfd541f05d4"
+                        },
+                        {
+                            "description": "Symbol P1 Pin 42 [42, Unspecified, Line]",
+                            "pos": {
+                                "x": 3.429,
+                                "y": 0.4064
+                            },
+                            "uuid": "7f91deee-8685-4cea-9f14-eed41be6ed31"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "pin_to_pin"
+                },
+                {
+                    "description": "Pins of type Unspecified and Unspecified are connected",
+                    "items": [
+                        {
+                            "description": "Symbol P1 Pin 4 [4, Unspecified, Line]",
+                            "pos": {
+                                "x": 3.3528,
+                                "y": 0.5334
+                            },
+                            "uuid": "2c77aa71-5d01-46c2-a891-8dc35204508a"
+                        },
+                        {
+                            "description": "Symbol P1 Pin 8 [8, Unspecified, Line]",
+                            "pos": {
+                                "x": 3.3528,
+                                "y": 0.635
+                            },
+                            "uuid": "ff937f4f-7a79-4043-a9e6-d557b462e726"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "pin_to_pin"
+                },
+                {
+                    "description": "Pins of type Unspecified and Unspecified are connected",
+                    "items": [
+                        {
+                            "description": "Symbol P1 Pin 5 [5, Unspecified, Line]",
+                            "pos": {
+                                "x": 3.3528,
+                                "y": 0.5588
+                            },
+                            "uuid": "83700ea5-4b2c-40ec-bbd2-94832d2ef549"
+                        },
+                        {
+                            "description": "Symbol P1 Pin 6 [6, Unspecified, Line]",
+                            "pos": {
+                                "x": 3.3528,
+                                "y": 0.5842
+                            },
+                            "uuid": "6e9550f8-2614-4b3c-944b-cb7dd845116d"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "pin_to_pin"
+                },
+                {
+                    "description": "Pins of type Unspecified and Bidirectional are connected",
+                    "items": [
+                        {
+                            "description": "Symbol P1 Pin 6 [6, Unspecified, Line]",
+                            "pos": {
+                                "x": 3.3528,
+                                "y": 0.5842
+                            },
+                            "uuid": "6e9550f8-2614-4b3c-944b-cb7dd845116d"
+                        },
+                        {
+                            "description": "Symbol U1 Pin 95 [CE2, Bidirectional, Line]",
+                            "pos": {
+                                "x": 1.5494,
+                                "y": 0.4826
+                            },
+                            "uuid": "b60fbdde-f251-4d73-8ce3-236c3349c8a1"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "pin_to_pin"
+                },
+                {
+                    "description": "Pins of type Unspecified and Bidirectional are connected",
+                    "items": [
+                        {
+                            "description": "Symbol P1 Pin 7 [7, Unspecified, Line]",
+                            "pos": {
+                                "x": 3.3528,
+                                "y": 0.6096
+                            },
+                            "uuid": "f0d1b483-c38a-4843-af55-fa37f10756bf"
+                        },
+                        {
+                            "description": "Symbol U1 Pin 68 [HA2, Bidirectional, Line]",
+                            "pos": {
+                                "x": 2.2352,
+                                "y": 0.4826
+                            },
+                            "uuid": "b178c0f1-fdfc-4c09-848e-52c67ef90b1c"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "pin_to_pin"
+                },
+                {
+                    "description": "Pins of type Unspecified and Unspecified are connected",
+                    "items": [
+                        {
+                            "description": "Symbol P1 Pin 8 [8, Unspecified, Line]",
+                            "pos": {
+                                "x": 3.3528,
+                                "y": 0.635
+                            },
+                            "uuid": "ff937f4f-7a79-4043-a9e6-d557b462e726"
+                        },
+                        {
+                            "description": "Symbol P1 Pin 9 [9, Unspecified, Line]",
+                            "pos": {
+                                "x": 3.3528,
+                                "y": 0.6604
+                            },
+                            "uuid": "67e99386-db96-4a0b-8956-762f2932df4e"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "pin_to_pin"
+                },
+                {
+                    "description": "Pins of type Unspecified and Unspecified are connected",
+                    "items": [
+                        {
+                            "description": "Symbol P1 Pin 9 [9, Unspecified, Line]",
+                            "pos": {
+                                "x": 3.3528,
+                                "y": 0.6604
+                            },
+                            "uuid": "67e99386-db96-4a0b-8956-762f2932df4e"
+                        },
+                        {
+                            "description": "Symbol P1 Pin 10 [10, Unspecified, Line]",
+                            "pos": {
+                                "x": 3.3528,
+                                "y": 0.6858
+                            },
+                            "uuid": "7e0fb95c-9c94-47ae-8955-d37860ae2652"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "pin_to_pin"
+                },
+                {
+                    "description": "Pins of type Unspecified and Unspecified are connected",
+                    "items": [
+                        {
+                            "description": "Symbol P1 Pin 10 [10, Unspecified, Line]",
+                            "pos": {
+                                "x": 3.3528,
+                                "y": 0.6858
+                            },
+                            "uuid": "7e0fb95c-9c94-47ae-8955-d37860ae2652"
+                        },
+                        {
+                            "description": "Symbol P1 Pin 12 [12, Unspecified, Line]",
+                            "pos": {
+                                "x": 3.3528,
+                                "y": 0.7366
+                            },
+                            "uuid": "f4ff6821-e176-4990-9cc0-f58c63fc1793"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "pin_to_pin"
+                },
+                {
+                    "description": "Pins of type Unspecified and Unspecified are connected",
+                    "items": [
+                        {
+                            "description": "Symbol P1 Pin 11 [11, Unspecified, Line]",
+                            "pos": {
+                                "x": 3.3528,
+                                "y": 0.7112
+                            },
+                            "uuid": "1b5d03f9-7fb8-4867-be40-5c09255956b7"
+                        },
+                        {
+                            "description": "Symbol P1 Pin 38 [38, Unspecified, Line]",
+                            "pos": {
+                                "x": 3.3528,
+                                "y": 1.397
+                            },
+                            "uuid": "be74d64e-9e0b-4320-861e-c2cbabf2566f"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "pin_to_pin"
+                },
+                {
+                    "description": "Pins of type Unspecified and Unspecified are connected",
+                    "items": [
+                        {
+                            "description": "Symbol P1 Pin 12 [12, Unspecified, Line]",
+                            "pos": {
+                                "x": 3.3528,
+                                "y": 0.7366
+                            },
+                            "uuid": "f4ff6821-e176-4990-9cc0-f58c63fc1793"
+                        },
+                        {
+                            "description": "Symbol P1 Pin 22 [22, Unspecified, Line]",
+                            "pos": {
+                                "x": 3.3528,
+                                "y": 0.9906
+                            },
+                            "uuid": "1a0e6416-d284-4b05-8f34-dc90a324a362"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "pin_to_pin"
+                },
+                {
+                    "description": "Pins of type Unspecified and Unspecified are connected",
+                    "items": [
+                        {
+                            "description": "Symbol P1 Pin 13 [13, Unspecified, Line]",
+                            "pos": {
+                                "x": 3.3528,
+                                "y": 0.762
+                            },
+                            "uuid": "cf5bc5fc-2563-4dab-a08f-2ea8657b0642"
+                        },
+                        {
+                            "description": "Symbol P1 Pin 15 [15, Unspecified, Line]",
+                            "pos": {
+                                "x": 3.3528,
+                                "y": 0.8128
+                            },
+                            "uuid": "f68c5c80-18ef-4cb9-8a83-b7f635dbe337"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "pin_to_pin"
+                },
+                {
+                    "description": "Pins of type Unspecified and Unspecified are connected",
+                    "items": [
+                        {
+                            "description": "Symbol P1 Pin 15 [15, Unspecified, Line]",
+                            "pos": {
+                                "x": 3.3528,
+                                "y": 0.8128
+                            },
+                            "uuid": "f68c5c80-18ef-4cb9-8a83-b7f635dbe337"
+                        },
+                        {
+                            "description": "Symbol P1 Pin 18 [18, Unspecified, Line]",
+                            "pos": {
+                                "x": 3.3528,
+                                "y": 0.889
+                            },
+                            "uuid": "873003dd-0d9c-4118-8998-617380576c64"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "pin_to_pin"
+                },
+                {
+                    "description": "Pins of type Unspecified and Bidirectional are connected",
+                    "items": [
+                        {
+                            "description": "Symbol P1 Pin 16 [16, Unspecified, Line]",
+                            "pos": {
+                                "x": 3.3528,
+                                "y": 0.8382
+                            },
+                            "uuid": "eb453553-f6b2-434e-91d9-0c1a061a93a0"
+                        },
+                        {
+                            "description": "Symbol U1 Pin 92 [nIOR, Bidirectional, Line]",
+                            "pos": {
+                                "x": 1.6256,
+                                "y": 0.4826
+                            },
+                            "uuid": "a89fd82a-3a3a-4b37-b1aa-00923a580bd0"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "pin_to_pin"
+                },
+                {
+                    "description": "Pins of type Unspecified and Bidirectional are connected",
+                    "items": [
+                        {
+                            "description": "Symbol P1 Pin 17 [17, Unspecified, Line]",
+                            "pos": {
+                                "x": 3.3528,
+                                "y": 0.8636
+                            },
+                            "uuid": "9957a054-5464-40f5-9521-ad7dafeb2127"
+                        },
+                        {
+                            "description": "Symbol U1 Pin 90 [nIOW, Bidirectional, Line]",
+                            "pos": {
+                                "x": 1.6764,
+                                "y": 0.4826
+                            },
+                            "uuid": "3f001799-a462-4790-9b49-39eec08336b6"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "pin_to_pin"
+                },
+                {
+                    "description": "Pins of type Unspecified and Unspecified are connected",
+                    "items": [
+                        {
+                            "description": "Symbol P1 Pin 18 [18, Unspecified, Line]",
+                            "pos": {
+                                "x": 3.3528,
+                                "y": 0.889
+                            },
+                            "uuid": "873003dd-0d9c-4118-8998-617380576c64"
+                        },
+                        {
+                            "description": "Symbol P1 Pin 20 [20, Unspecified, Line]",
+                            "pos": {
+                                "x": 3.3528,
+                                "y": 0.9398
+                            },
+                            "uuid": "c1dd0979-38f2-4cad-98bf-43f5c344ff81"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "pin_to_pin"
+                },
+                {
+                    "description": "Pins of type Unspecified and Bidirectional are connected",
+                    "items": [
+                        {
+                            "description": "Symbol P1 Pin 19 [19, Unspecified, Line]",
+                            "pos": {
+                                "x": 3.3528,
+                                "y": 0.9144
+                            },
+                            "uuid": "9111b9a8-c9ba-4f47-b5cf-132c591b31cc"
+                        },
+                        {
+                            "description": "Symbol U1 Pin 67 [DMARQ, Bidirectional, Line]",
+                            "pos": {
+                                "x": 2.2606,
+                                "y": 0.4826
+                            },
+                            "uuid": "5a6b56cd-cf95-45d8-aac4-058490e61c31"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "pin_to_pin"
+                },
+                {
+                    "description": "Pins of type Unspecified and Unspecified are connected",
+                    "items": [
+                        {
+                            "description": "Symbol P1 Pin 20 [20, Unspecified, Line]",
+                            "pos": {
+                                "x": 3.3528,
+                                "y": 0.9398
+                            },
+                            "uuid": "c1dd0979-38f2-4cad-98bf-43f5c344ff81"
+                        },
+                        {
+                            "description": "Symbol P1 Pin 37 [37, Unspecified, Line]",
+                            "pos": {
+                                "x": 3.3528,
+                                "y": 1.3716
+                            },
+                            "uuid": "1f85ba49-11e8-49b7-b2c0-a8cd042e75a6"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "pin_to_pin"
+                },
+                {
+                    "description": "Pins of type Unspecified and Bidirectional are connected",
+                    "items": [
+                        {
+                            "description": "Symbol P1 Pin 21 [21, Unspecified, Line]",
+                            "pos": {
+                                "x": 3.3528,
+                                "y": 0.9652
+                            },
+                            "uuid": "fe71aab3-1846-4e4c-9d81-4ce40a782ef9"
+                        },
+                        {
+                            "description": "Symbol U1 Pin 99 [HD15, Bidirectional, Line]",
+                            "pos": {
+                                "x": 1.4097,
+                                "y": 0.6858
+                            },
+                            "uuid": "a0ce6f67-65d9-42e0-8290-8a880c677d10"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "pin_to_pin"
+                },
+                {
+                    "description": "Pins of type Unspecified and Unspecified are connected",
+                    "items": [
+                        {
+                            "description": "Symbol P1 Pin 22 [22, Unspecified, Line]",
+                            "pos": {
+                                "x": 3.3528,
+                                "y": 0.9906
+                            },
+                            "uuid": "1a0e6416-d284-4b05-8f34-dc90a324a362"
+                        },
+                        {
+                            "description": "Symbol P1 Pin 24 [24, Unspecified, Line]",
+                            "pos": {
+                                "x": 3.3528,
+                                "y": 1.0414
+                            },
+                            "uuid": "5e1ba4e5-89cc-4d1b-bde0-f14395983f98"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "pin_to_pin"
+                },
+                {
+                    "description": "Pins of type Unspecified and Bidirectional are connected",
+                    "items": [
+                        {
+                            "description": "Symbol P1 Pin 23 [23, Unspecified, Line]",
+                            "pos": {
+                                "x": 3.3528,
+                                "y": 1.016
+                            },
+                            "uuid": "cc22d414-11b2-40a7-b26a-5cf7d7beb39b"
+                        },
+                        {
+                            "description": "Symbol U1 Pin 101 [HD14, Bidirectional, Line]",
+                            "pos": {
+                                "x": 1.4097,
+                                "y": 0.7366
+                            },
+                            "uuid": "b9db741f-d98a-4c2d-919f-05ad2b038b43"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "pin_to_pin"
+                },
+                {
+                    "description": "Pins of type Unspecified and Unspecified are connected",
+                    "items": [
+                        {
+                            "description": "Symbol P1 Pin 24 [24, Unspecified, Line]",
+                            "pos": {
+                                "x": 3.3528,
+                                "y": 1.0414
+                            },
+                            "uuid": "5e1ba4e5-89cc-4d1b-bde0-f14395983f98"
+                        },
+                        {
+                            "description": "Symbol P1 Pin 26 [26, Unspecified, Line]",
+                            "pos": {
+                                "x": 3.3528,
+                                "y": 1.0922
+                            },
+                            "uuid": "7bf57604-8768-49a3-983c-4b7c45d130b8"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "pin_to_pin"
+                },
+                {
+                    "description": "Pins of type Unspecified and Bidirectional are connected",
+                    "items": [
+                        {
+                            "description": "Symbol P1 Pin 25 [25, Unspecified, Line]",
+                            "pos": {
+                                "x": 3.3528,
+                                "y": 1.0668
+                            },
+                            "uuid": "d38ea233-411b-48e7-bf2e-327e4c756bbe"
+                        },
+                        {
+                            "description": "Symbol U1 Pin 103 [HD13, Bidirectional, Line]",
+                            "pos": {
+                                "x": 1.4097,
+                                "y": 0.7874
+                            },
+                            "uuid": "0674d0b8-4ed4-4f8f-85d6-091eb7da7b99"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "pin_to_pin"
+                },
+                {
+                    "description": "Pins of type Unspecified and Unspecified are connected",
+                    "items": [
+                        {
+                            "description": "Symbol P1 Pin 26 [26, Unspecified, Line]",
+                            "pos": {
+                                "x": 3.3528,
+                                "y": 1.0922
+                            },
+                            "uuid": "7bf57604-8768-49a3-983c-4b7c45d130b8"
+                        },
+                        {
+                            "description": "Symbol P1 Pin 31 [31, Unspecified, Line]",
+                            "pos": {
+                                "x": 3.3528,
+                                "y": 1.2192
+                            },
+                            "uuid": "52d46f47-f5fe-41f4-b098-8947d46969c8"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "pin_to_pin"
+                },
+                {
+                    "description": "Pins of type Unspecified and Bidirectional are connected",
+                    "items": [
+                        {
+                            "description": "Symbol P1 Pin 27 [27, Unspecified, Line]",
+                            "pos": {
+                                "x": 3.3528,
+                                "y": 1.1176
+                            },
+                            "uuid": "cfccb3d0-fa0d-4ac1-810b-98c4a9b59792"
+                        },
+                        {
+                            "description": "Symbol U1 Pin 107 [HD12, Bidirectional, Line]",
+                            "pos": {
+                                "x": 1.4097,
+                                "y": 0.889
+                            },
+                            "uuid": "100201e7-e0e0-4174-8132-59d6a1a992de"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "pin_to_pin"
+                },
+                {
+                    "description": "Pins of type Unspecified and Bidirectional are connected",
+                    "items": [
+                        {
+                            "description": "Symbol P1 Pin 29 [29, Unspecified, Line]",
+                            "pos": {
+                                "x": 3.3528,
+                                "y": 1.1684
+                            },
+                            "uuid": "c7863ab0-5cff-40a9-b675-115674963722"
+                        },
+                        {
+                            "description": "Symbol U1 Pin 109 [HD11, Bidirectional, Line]",
+                            "pos": {
+                                "x": 1.4097,
+                                "y": 0.9398
+                            },
+                            "uuid": "7f7ba8c3-b702-44a7-adcf-6a5ea830a4b3"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "pin_to_pin"
+                },
+                {
+                    "description": "Pins of type Unspecified and Bidirectional are connected",
+                    "items": [
+                        {
+                            "description": "Symbol P1 Pin 30 [30, Unspecified, Line]",
+                            "pos": {
+                                "x": 3.3528,
+                                "y": 1.1938
+                            },
+                            "uuid": "2312631c-d67c-475f-97c1-9eb3533f88be"
+                        },
+                        {
+                            "description": "Symbol U1 Pin 108 [HD4, Bidirectional, Line]",
+                            "pos": {
+                                "x": 1.4097,
+                                "y": 0.9144
+                            },
+                            "uuid": "f80b7e0e-ee6f-49cb-b4c1-41141055f32d"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "pin_to_pin"
+                },
+                {
+                    "description": "Pins of type Unspecified and Unspecified are connected",
+                    "items": [
+                        {
+                            "description": "Symbol P1 Pin 31 [31, Unspecified, Line]",
+                            "pos": {
+                                "x": 3.3528,
+                                "y": 1.2192
+                            },
+                            "uuid": "52d46f47-f5fe-41f4-b098-8947d46969c8"
+                        },
+                        {
+                            "description": "Symbol P1 Pin 33 [33, Unspecified, Line]",
+                            "pos": {
+                                "x": 3.3528,
+                                "y": 1.27
+                            },
+                            "uuid": "21796d1c-0377-47c6-8fd1-0ed29fff613f"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "pin_to_pin"
+                },
+                {
+                    "description": "Pins of type Unspecified and Bidirectional are connected",
+                    "items": [
+                        {
+                            "description": "Symbol P1 Pin 32 [32, Unspecified, Line]",
+                            "pos": {
+                                "x": 3.3528,
+                                "y": 1.2446
+                            },
+                            "uuid": "9f44b258-f8c3-42d9-96f1-ed8e36f1aade"
+                        },
+                        {
+                            "description": "Symbol U1 Pin 104 [HD5, Bidirectional, Line]",
+                            "pos": {
+                                "x": 1.4097,
+                                "y": 0.8128
+                            },
+                            "uuid": "b31f90b2-ee76-4f33-be1d-ec4850f6cb6b"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "pin_to_pin"
+                },
+                {
+                    "description": "Pins of type Unspecified and Unspecified are connected",
+                    "items": [
+                        {
+                            "description": "Symbol P1 Pin 33 [33, Unspecified, Line]",
+                            "pos": {
+                                "x": 3.3528,
+                                "y": 1.27
+                            },
+                            "uuid": "21796d1c-0377-47c6-8fd1-0ed29fff613f"
+                        },
+                        {
+                            "description": "Symbol P1 Pin 35 [35, Unspecified, Line]",
+                            "pos": {
+                                "x": 3.3528,
+                                "y": 1.3208
+                            },
+                            "uuid": "5bc321b4-54dc-4249-8961-7ffc61ad9300"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "pin_to_pin"
+                },
+                {
+                    "description": "Pins of type Unspecified and Bidirectional are connected",
+                    "items": [
+                        {
+                            "description": "Symbol P1 Pin 34 [34, Unspecified, Line]",
+                            "pos": {
+                                "x": 3.3528,
+                                "y": 1.2954
+                            },
+                            "uuid": "e0347c31-a7f9-4993-95a8-d13b234b86d7"
+                        },
+                        {
+                            "description": "Symbol U1 Pin 102 [HD6, Bidirectional, Line]",
+                            "pos": {
+                                "x": 1.4097,
+                                "y": 0.762
+                            },
+                            "uuid": "a6426e20-0b1c-4c47-b5c0-e176806f5ef6"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "pin_to_pin"
+                },
+                {
+                    "description": "Pins of type Unspecified and Bidirectional are connected",
+                    "items": [
+                        {
+                            "description": "Symbol P1 Pin 35 [35, Unspecified, Line]",
+                            "pos": {
+                                "x": 3.3528,
+                                "y": 1.3208
+                            },
+                            "uuid": "5bc321b4-54dc-4249-8961-7ffc61ad9300"
+                        },
+                        {
+                            "description": "Symbol U1 Pin 50 [HD10, Bidirectional, Line]",
+                            "pos": {
+                                "x": 2.4257,
+                                "y": 0.9906
+                            },
+                            "uuid": "5c51034c-0b3b-4c0a-8063-a550318660ce"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "pin_to_pin"
+                },
+                {
+                    "description": "Pins of type Unspecified and Bidirectional are connected",
+                    "items": [
+                        {
+                            "description": "Symbol P1 Pin 36 [36, Unspecified, Line]",
+                            "pos": {
+                                "x": 3.3528,
+                                "y": 1.3462
+                            },
+                            "uuid": "b5e0ff36-322f-41d8-acfb-881f86c21555"
+                        },
+                        {
+                            "description": "Symbol U1 Pin 100 [HD7, Bidirectional, Line]",
+                            "pos": {
+                                "x": 1.4097,
+                                "y": 0.7112
+                            },
+                            "uuid": "be88c589-905e-4761-864d-3012ae36d649"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "pin_to_pin"
+                },
+                {
+                    "description": "Pins of type Unspecified and Unspecified are connected",
+                    "items": [
+                        {
+                            "description": "Symbol P1 Pin 37 [37, Unspecified, Line]",
+                            "pos": {
+                                "x": 3.3528,
+                                "y": 1.3716
+                            },
+                            "uuid": "1f85ba49-11e8-49b7-b2c0-a8cd042e75a6"
+                        },
+                        {
+                            "description": "Symbol P1 Pin 41 [41, Unspecified, Line]",
+                            "pos": {
+                                "x": 3.429,
+                                "y": 1.4986
+                            },
+                            "uuid": "734d309a-5a32-4905-b1e4-e7499be72f4e"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "pin_to_pin"
+                },
+                {
+                    "description": "Pins of type Unspecified and Bidirectional are connected",
+                    "items": [
+                        {
+                            "description": "Symbol P1 Pin 38 [38, Unspecified, Line]",
+                            "pos": {
+                                "x": 3.3528,
+                                "y": 1.397
+                            },
+                            "uuid": "be74d64e-9e0b-4320-861e-c2cbabf2566f"
+                        },
+                        {
+                            "description": "Symbol U1 Pin 71 [nRST, Bidirectional, Line]",
+                            "pos": {
+                                "x": 2.159,
+                                "y": 0.4826
+                            },
+                            "uuid": "710fcfd7-fe07-49bf-b85e-c653ba990961"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "pin_to_pin"
+                },
+                {
+                    "description": "Pins of type Unspecified and Power input are connected",
+                    "items": [
+                        {
+                            "description": "Symbol P1 Pin 42 [42, Unspecified, Line]",
+                            "pos": {
+                                "x": 3.429,
+                                "y": 0.4064
+                            },
+                            "uuid": "7f91deee-8685-4cea-9f14-eed41be6ed31"
+                        },
+                        {
+                            "description": "Symbol #PWR201 Pin 1 [Power input, Line]",
+                            "pos": {
+                                "x": 2.5654,
+                                "y": 0.635
+                            },
+                            "uuid": "1726e240-3e8d-4e53-865f-36027ac1e1f2"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "pin_to_pin"
+                },
+                {
+                    "description": "Pins of type Unspecified and Power input are connected",
+                    "items": [
+                        {
+                            "description": "Symbol P1 Pin 41 [41, Unspecified, Line]",
+                            "pos": {
+                                "x": 3.429,
+                                "y": 1.4986
+                            },
+                            "uuid": "734d309a-5a32-4905-b1e4-e7499be72f4e"
+                        },
+                        {
+                            "description": "Symbol #PWR011 Pin 1 [Power input, Line]",
+                            "pos": {
+                                "x": 3.5306,
+                                "y": 1.6383
+                            },
+                            "uuid": "1277edf8-d271-4ee5-9b08-fd22011a14a1"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "pin_to_pin"
+                },
+                {
+                    "description": "Pins of type Unspecified and Input are connected",
+                    "items": [
+                        {
+                            "description": "Symbol C3 Pin 1 [1, Unspecified, Line]",
+                            "pos": {
+                                "x": 5.2451,
+                                "y": 3.2512
+                            },
+                            "uuid": "f72a0dba-ea49-47d8-af0f-dfbde70f50f8"
+                        },
+                        {
+                            "description": "Symbol U2 Pin 7 [~{HOLD}, Input, Line]",
+                            "pos": {
+                                "x": 5.1943,
+                                "y": 3.1877
+                            },
+                            "uuid": "4bcf5894-8bcf-4ef5-a608-b712136a3905"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "pin_to_pin"
+                },
+                {
+                    "description": "Pins of type Unspecified and Input are connected",
+                    "items": [
+                        {
+                            "description": "Symbol C3 Pin 2 [2, Unspecified, Line]",
+                            "pos": {
+                                "x": 5.2451,
+                                "y": 3.3528
+                            },
+                            "uuid": "cee5cfdb-f7d3-4f23-ade4-7d5eff1262b8"
+                        },
+                        {
+                            "description": "Symbol U2 Pin 7 [~{HOLD}, Input, Line]",
+                            "pos": {
+                                "x": 5.1943,
+                                "y": 3.1877
+                            },
+                            "uuid": "4bcf5894-8bcf-4ef5-a608-b712136a3905"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "pin_to_pin"
+                }
+            ]
+        }
+    ],
+    "source": "SD_IDE_IPOD.kicad_sch"
+}

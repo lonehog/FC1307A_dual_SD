@@ -44,3 +44,5 @@ fp-info-cache
 Thumbs.db
 .history/
 *-backups/
+.vscode/
+
